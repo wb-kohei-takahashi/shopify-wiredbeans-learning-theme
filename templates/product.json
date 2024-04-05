@@ -33,6 +33,10 @@
           "type": "my_type_5",
           "settings": {
           }
+        },
+        "9994": {
+          "type": "my_type_6",
+          "settings": {}
         }
       },
       "block_order": [
@@ -41,7 +45,8 @@
         "9997",
         "9996",
         "my_type_7_iXP6kH",
-        "9995"
+        "9995",
+        "9994"
       ],
       "settings": {
         "my_title": "THIS IS MY PRODUCT"
