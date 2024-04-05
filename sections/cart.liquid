@@ -127,19 +127,16 @@
                       </option>
                     </select>
                   </div>
+                  <div>
+                    <label for="serialCode">serial code</label>
+                    <input type="text" name="attributes[serialCode]" id="serialCode">
+                  </div>
 
                 {% when 'my_type_2' %}
                   <!-- Total price and checkout button -->
                   <div style="text-align: right;" class="my_top_space my_bottom_space my_right_space">
                     <p class="my_font_large">🛍️ Total: {{ cart.total_price | money_with_currency }}</p>
                     <input type="submit" name="checkout" value="Checkout" class="my_font_large" style="width: 200px;">
-                  </div>
-
-                {% when 'my_type_3' %}
-
-                  <div>
-                    <label for="serialCode">serial code</label>
-                    <input type="text" name="attributes[serialCode]" id="serialCode">
                   </div>
 
               {% endcase %}
@@ -201,10 +198,6 @@
     {
       "name": "Price and Checkout",
       "type": "my_type_2"
-    },
-    {
-      "name": "Serial code",
-      "type": "my_type_3"
     }
   ],
   "enabled_on": {
