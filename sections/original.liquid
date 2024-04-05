@@ -2,10 +2,16 @@
 
 {% schema %}
 {
-  "name": "t:sections.product.original",
+  "name": "original",
+  "limit": 1,
   "settings": [],
   "enabled_on": {
     "templates": ["list-collections", "index", "product", "collection", "search"]
-  }
+  },
+  "presets": [
+    {
+      "name": "original"
+    }
+  ]
 }
 {% endschema %}
