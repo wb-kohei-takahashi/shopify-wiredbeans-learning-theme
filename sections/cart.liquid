@@ -127,6 +127,10 @@
                       </option>
                     </select>
                   </div>
+                  <div>
+                    <label for="serialCode">serial code</label>
+                    <input type="text" name="attributes[serialCode]" id="serialCode">
+                  </div>
 
                 {% when 'my_type_2' %}
                   <!-- Total price and checkout button -->
@@ -134,6 +138,7 @@
                     <p class="my_font_large">🛍️ Total: {{ cart.total_price | money_with_currency }}</p>
                     <input type="submit" name="checkout" value="Checkout" class="my_font_large" style="width: 200px;">
                   </div>
+
               {% endcase %}
             </div>
           {% endfor %}
