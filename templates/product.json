@@ -36,7 +36,8 @@
         },
         "9994": {
           "type": "my_type_6",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -51,9 +52,15 @@
       "settings": {
         "my_title": "THIS IS MY PRODUCT"
       }
+    },
+    "original_MnddBj": {
+      "type": "original",
+      "settings": {
+      }
     }
   },
   "order": [
-    "my_product"
+    "my_product",
+    "original_MnddBj"
   ]
 }
