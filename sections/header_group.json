@@ -1,0 +1,18 @@
+{
+  "type": "header",
+  "name": "t:sections.header_group.name",
+  "sections": {
+    "my_header": {
+      "type": "header",
+      "settings": {}
+    },
+    "my_company": {
+      "type": "company",
+      "settings": {}
+    }
+  },
+  "order": [
+    "my_header",
+    "my_company"
+  ]
+}

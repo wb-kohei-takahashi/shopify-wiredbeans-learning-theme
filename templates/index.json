@@ -1,0 +1,21 @@
+{
+    "sections": {
+        "my_home": {
+            "type": "home_page",
+            "blocks": {
+                "9999": {
+                    "type": "my_type_3",
+                    "settings": {
+                        "my_url": "shopify:\/\/collections\/all"
+                    }
+                }
+            },
+            "block_order": [
+                "9999"
+            ]
+        }
+    },
+    "order": [
+        "my_home"
+    ]
+}

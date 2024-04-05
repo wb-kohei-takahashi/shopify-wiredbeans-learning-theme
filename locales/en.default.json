@@ -1,0 +1,15 @@
+{
+    "sections": {
+        "home_page": {
+            "message": "This message changes based on your chosen language above."
+        },
+        "customer_login": {
+            "message": "Use the new customer login."
+        }
+    },
+    "snipets": {
+        "hello": {
+            "text": "Hello {{ name }}!"
+        }
+    }
+}

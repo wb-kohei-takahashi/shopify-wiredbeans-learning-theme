@@ -1,0 +1,12 @@
+[
+    {
+        "name": "My own font",
+        "settings": [
+            {
+                "type": "checkbox",
+                "id": "use_font",
+                "label": "Use my font (Noto Sans JP) in assets"
+            }
+        ]
+    }
+]

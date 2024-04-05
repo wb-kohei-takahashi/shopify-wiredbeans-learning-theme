@@ -1,0 +1,49 @@
+{
+  "sections": {
+    "header_group": {
+      "name": "ヘッダーグループ"
+    },
+    "header": {
+      "name": "ヘッダー"
+    },
+    "footer_group": {
+      "name": "フッターグループ"
+    },
+    "footer": {
+      "name": "フッター"
+    },
+    "home_page": {
+      "name": "ホームページ"
+    },
+    "collection": {
+      "name": "コレクション"
+    },
+    "list_collection": {
+      "name": "コレクションリスト"
+    },
+    "product": {
+      "name": "商品"
+    },
+    "cart": {
+      "name": "カート"
+    },
+    "404": {
+      "name": "404ページ"
+    },
+    "article": {
+      "name": "記事"
+    },
+    "blog": {
+      "name": "ブログ"
+    },
+    "page": {
+      "name": "ページ"
+    },
+    "search": {
+      "name": "検索"
+    },
+    "company": {
+      "name": "会社"
+    }
+  }
+}

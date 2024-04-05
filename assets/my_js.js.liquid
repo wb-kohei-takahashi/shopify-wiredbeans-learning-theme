@@ -1,0 +1,8 @@
+/* 
+  Global JavaScript included by layout/theme.liquid
+  Section local javaScript should be defined in each section Liquid.
+*/
+
+const changeUrlInSelector = (obj) => {
+    window.location.href = obj.value;
+};

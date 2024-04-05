@@ -1,0 +1,49 @@
+{
+    "sections": {
+        "header_group": {
+            "name": "Header Group"
+        },
+        "header": {
+            "name": "Header"
+        },
+        "footer_group": {
+            "name": "Footer Group"
+        },
+        "footer": {
+            "name": "Footer"
+        },
+        "home_page": {
+            "name": "Home Page"
+        },
+        "collection": {
+            "name": "Collection"
+        },
+        "list_collection": {
+            "name": "Collection List"
+        },
+        "product": {
+            "name": "Product"
+        },
+        "cart": {
+            "name": "Cart"
+        },
+        "404": {
+            "name": "404 Page"
+        },
+        "article": {
+            "name": "Article"
+        },
+        "blog": {
+            "name": "Blog"
+        },
+        "page": {
+            "name": "Page"
+        },
+        "search": {
+            "name": "Search"
+        },
+        "company": {
+            "name": "Company"
+        }
+    }
+}

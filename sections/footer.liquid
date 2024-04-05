@@ -1,0 +1,80 @@
+{% comment %}
+  *** Footer ***
+  See https://shopify.dev/docs/themes/architecture/layouts
+{% endcomment %}
+<div class="my_section my_footer">
+  <!-- Footer section -->
+  {% render 'section_title' %}
+
+  <h3>{{ section.settings.title }}</h3>
+
+  {% render 'hello' %}
+
+  <!-- Rendering blocks -->
+  {% for block in section.blocks %}
+    <div class="my_block">
+      <div class="my_block_title">Block ({% increment i %})</div>
+
+      {% case block.type %}
+        {% when 'my_type_1' %}
+          <!-- Page link -->
+          <p>
+            <a href="{{ block.settings.my_page.url }}">My page: {{ block.settings.my_page.title }}</a>
+          </p>
+
+        {% when 'my_type_2' %}
+          <!-- Article (Blog) link -->
+          <p>
+            <a href="{{ block.settings.my_article.url }}">My Article: {{ block.settings.my_article.title }}</a>
+          </p>
+      {% endcase %}
+    </div>
+  {% endfor %}
+
+  <p>© benzookapi</p>
+
+  <p>▶️ <a href="https://github.com/benzookapi/shopify-barebone-theme-sample" target="_blank">Get the code</a></p>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.footer.name",
+  "limit": 1,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Footer Title",
+      "default": "THIS IS MY FOOTER"
+    }
+  ],
+  "max_blocks": 2,
+  "blocks": [
+    {
+      "name": "My Page",
+      "type": "my_type_1",
+      "settings": [
+        {
+          "type": "page",
+          "id": "my_page",
+          "label": "My Page"
+        }
+      ]
+    },
+    {
+      "name": "My Article",
+      "type": "my_type_2",
+      "settings": [
+        {
+          "type": "article",
+          "id": "my_article",
+          "label": "My Article"
+        }
+      ]
+    }
+  ],
+  "enabled_on": {
+    "groups": ["footer"]
+  }
+}
+{% endschema %}

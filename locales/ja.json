@@ -1,0 +1,15 @@
+{
+    "sections": {
+        "home_page": {
+            "message": "このメッセージは上で選んだ言語にもとづいて変わります。"
+        },
+        "customer_login": {
+            "message": "新しいお客様ログインを使ってください。"
+        }
+    },
+    "snipets": {
+        "hello": {
+            "text": "こんにちは、 {{ name }}さん！"
+        }
+    }
+}
